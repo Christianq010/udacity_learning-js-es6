@@ -81,3 +81,23 @@ console.log(colors);
 // const [x, y, z] = point;
 
 // console.log(x, y, z);
+
+
+/*
+ *
+ * ----------- Object Literals -------------- | 
+ *
+ */
+
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+    type,
+    color,
+    carat,
+    calculateWorth: function() {
+        // will calculate worth of gemstone based on type, color, and carat
+    }
+};
