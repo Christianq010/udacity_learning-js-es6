@@ -125,3 +125,14 @@ const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 
 for (const day of days) {
     console.log(day.charAt(0).toUpperCase() + day.slice(1));
 }
+
+/*
+ * Instructions: Use the spread operator to combine the `fruits` and `vegetables` arrays into the `produce` array.
+ */
+
+const fruits = ["apples", "bananas", "pears"];
+const vegetables = ["corn", "potatoes", "carrots"];
+
+const produce = [...fruits, ...vegetables];
+
+console.log(produce);
